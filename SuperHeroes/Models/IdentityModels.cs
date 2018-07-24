@@ -30,7 +30,11 @@ namespace SuperHeroes.Models
             return new ApplicationDbContext();
             
         }
+
+        DbSet<SuperHero> SuperHeroe { get; set; }
+
+        public System.Data.Entity.DbSet<SuperHeroes.Models.SuperHero> SuperHeroes { get; set; }
     }
-    DbSet<SuperHero> SuperHeroes
+    
 
 }
