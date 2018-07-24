@@ -28,13 +28,10 @@ namespace SuperHeroes.Models
         public static ApplicationDbContext Create()
         {
             return new ApplicationDbContext();
-            
+
         }
 
-        DbSet<SuperHero> SuperHeroe { get; set; }
+        public DbSet<SuperHero> SuperHeros { get; set; }
 
-        public System.Data.Entity.DbSet<SuperHeroes.Models.SuperHero> SuperHeroes { get; set; }
     }
-    
-
 }
