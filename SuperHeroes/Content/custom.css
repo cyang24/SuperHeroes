@@ -1,7 +1,13 @@
 .jumbotron {
-    background-image: url("wolverine.jpg");
+    background-image: url("goku.jpg");
     background-repeat: no-repeat;
-    background-size: 115%;
+    background-size: 110%;
     height:400px;
-    background-position: center 45%;
+    background-position: center 20%;
+}
+
+body {
+
+color:aliceblue;
+
 }
