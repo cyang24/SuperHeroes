@@ -316,6 +316,7 @@
     <Content Include="Views\SuperHero\Index.cshtml" />
     <Content Include="Views\SuperHero\Details.cshtml" />
     <Content Include="Views\SuperHero\Edit.cshtml" />
+    <Content Include="Views\SuperHero\Delete.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
