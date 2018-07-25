@@ -1,0 +1,7 @@
+.jumbotron {
+    background-image: url("wolverine.jpg");
+    background-repeat: no-repeat;
+    background-size: 115%;
+    height:400px;
+    background-position: center 45%;
+}
